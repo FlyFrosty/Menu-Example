@@ -1,0 +1,220 @@
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 7; @symbol_classdef = [newTrySettings,7,6,20]; ]
+class newTrySettings {
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_9_26_15_4_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 10 8 ]
+        symbol [ Application %tmp.2 10 23 34 ];
+        %tmp.2 = getv ? :Application;
+        symbol [ Storage %tmp.3 10 35 42 ];
+        %tmp.3 = getv %tmp.2 :Storage;
+        symbol [ getValue %tmp.4 10 43 51 ];
+        %tmp.4 = getv function %tmp.3 :getValue;
+        %tmp.5 = "mySelection";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        symbol [ menuSelector ? 10 8 20 ];
+        putv self :menuSelector %tmp.6;
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 12 8 ]
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_12_8_14_8_if_stmt:
+        symbol [ menuSelector %tmp.8 12 11 23 ];
+        %tmp.8 = getv ? :menuSelector;
+        %tmp.9 = null;
+        %tmp.10 = eq %tmp.8 %tmp.9;
+        bf %tmp.10 @_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_12_8_14_8_if_end;
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_12_8_14_8_if_true:
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_12_31_14_8_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 13 12 ]
+        %tmp.11 = false;
+        symbol [ menuSelector ? 13 12 24 ];
+        putv self :menuSelector %tmp.11;
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_12_31_14_8_stop:
+        goto @_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_12_8_14_8_if_end;
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_12_8_14_8_if_end:
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_9_26_15_4_stop:
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 17; @symbol_functiondef = [saveSettings,17,13,25]; ]
+    function saveSettings() {
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_17_28_19_4_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 18 8 ]
+        symbol [ Application %tmp.2 18 8 19 ];
+        %tmp.2 = getv ? :Application;
+        symbol [ Storage %tmp.3 18 20 27 ];
+        %tmp.3 = getv %tmp.2 :Storage;
+        symbol [ setValue %tmp.4 18 28 36 ];
+        %tmp.4 = getv function %tmp.3 :setValue;
+        %tmp.5 = "mySelection";
+        symbol [ menuSelector %tmp.7 18 51 63 ];
+        %tmp.7 = getv ? :menuSelector;
+        invoke %tmp.3 %tmp.4(%tmp.5, %tmp.7);
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_17_28_19_4_stop:
+    }
+}
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 23; @symbol_classdef = [newTrySettingsMenu,23,6,24]; @symbol_extends<0> = [WatchUi,23,33,40]; @symbol_extends<1> = [Menu2,23,41,46]; ]
+class newTrySettingsMenu extends WatchUi.Menu2 {
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 23; ]
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 23; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 25; @position = 8; @symbol_vardef = [mySettings,25,8,18]; ]
+    var mySettings;
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 27; @symbol_functiondef = [initialize,27,13,23]; ]
+    function initialize() as Void {
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_27_26_33_4_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 29 8 ]
+        symbol [ Menu2 %tmp.2 29 8 13 ];
+        %tmp.2 = getv ? :Menu2;
+        symbol [ initialize %tmp.3 29 14 24 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = null;
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 30 8 ]
+        symbol [ newTrySettings %tmp.8 30 23 37 ];
+        %tmp.8 = getv ? :newTrySettings;
+        %tmp.5 = newc %tmp.8 ();
+        symbol [ mySettings ? 30 8 18 ];
+        putv self :mySettings %tmp.5;
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 31 8 ]
+        symbol [ Menu2 %tmp.10 31 8 13 ];
+        %tmp.10 = getv ? :Menu2;
+        symbol [ setTitle %tmp.11 31 14 22 ];
+        %tmp.11 = getv function %tmp.10 :setTitle;
+        %tmp.12 = "Color";
+        invoke %tmp.10 %tmp.11(%tmp.12);
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 32 3 ]
+        symbol [ Menu2 %tmp.14 32 3 8 ];
+        %tmp.14 = getv ? :Menu2;
+        symbol [ addItem %tmp.15 32 9 16 ];
+        %tmp.15 = getv function %tmp.14 :addItem;
+        symbol [ WatchUi %tmp.18 32 21 28 ];
+        %tmp.18 = getm $.Toybox.WatchUi;
+        symbol [ ToggleMenuItem %tmp.19 32 29 43 ];
+        %tmp.19 = getv function ? %tmp.18 :ToggleMenuItem;
+        %tmp.20 = "Blue or Red";
+        %tmp.21 = null;
+        %tmp.22 = "mySelection";
+        symbol [ mySettings %tmp.24 32 78 88 ];
+        %tmp.24 = getv ? :mySettings;
+        symbol [ menuSelector %tmp.25 32 89 101 ];
+        %tmp.25 = getv %tmp.24 :menuSelector;
+        %tmp.26 = null;
+        %tmp.16 = newc %tmp.19 (%tmp.20, %tmp.21, %tmp.22, %tmp.25, %tmp.26);
+        invoke %tmp.14 %tmp.15(%tmp.16);
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_27_26_33_4_stop:
+    }
+}
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 37; @symbol_classdef = [newTrySettingsMenuDelegate,37,6,32]; @symbol_extends<0> = [WatchUi,37,41,48]; @symbol_extends<1> = [Menu2InputDelegate,37,49,67]; ]
+class newTrySettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 37; ]
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 37; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 39; @position = 8; @symbol_vardef = [classView,39,8,17]; ]
+    var classView;
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 41; @symbol_functiondef = [initialize,41,13,23]; @symbol_param<0> = [topView,41,24,31]; ]
+    function initialize(topView) as Void {
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_41_33_44_4_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 42 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 42 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 42 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 43 8 ]
+        %tmp.4 = lgetv %topView;
+        symbol [ topView %tmp.4 43 20 27 ];
+        symbol [ classView ? 43 8 17 ];
+        putv self :classView %tmp.4;
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_41_33_44_4_stop:
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 46; @symbol_functiondef = [onSelect,46,13,21]; @symbol_param<0> = [item,46,22,26]; @symbol_param<0>_type<0> = [MenuItem,46,30,38]; ]
+    function onSelect(item as MenuItem) as Void {
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_46_48_51_4_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 47 8 ]
+        [ "_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_46_48_51_4_start" "_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_46_48_51_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 47 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 47 17 21 ];
+        symbol [ getId %tmp.2 47 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %id.1 %tmp.3;
+        symbol [ id %id.1 47 12 14 ];
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 48 8 ]
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_48_8_50_8_if_stmt:
+        %tmp.4 = lgetv %id.1;
+        symbol [ id %tmp.4 48 12 14 ];
+        symbol [ equals %tmp.5 48 15 21 ];
+        %tmp.5 = getv function %tmp.4 :equals;
+        %tmp.6 = "mySelection";
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        bf %tmp.7 @_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_48_8_50_8_if_end;
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_48_8_50_8_if_true:
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_48_38_50_8_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 49 12 ]
+        symbol [ classView %tmp.8 49 12 21 ];
+        %tmp.8 = getv self :classView;
+        symbol [ mySettings %tmp.9 49 22 32 ];
+        %tmp.9 = getv %tmp.8 :mySettings;
+        symbol [ classView %tmp.11 49 49 58 ];
+        %tmp.11 = getv ? :classView;
+        symbol [ mySettings %tmp.12 49 59 69 ];
+        %tmp.12 = getv %tmp.11 :mySettings;
+        symbol [ menuSelector %tmp.13 49 70 82 ];
+        %tmp.13 = getv %tmp.12 :menuSelector;
+        %tmp.14 = not %tmp.13;
+        symbol [ menuSelector ? 49 33 45 ];
+        putv %tmp.9 :menuSelector %tmp.14;
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_48_38_50_8_stop:
+        goto @_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_48_8_50_8_if_end;
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_48_8_50_8_if_end:
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_46_48_51_4_stop:
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 53; @symbol_functiondef = [onBack,53,13,19]; ]
+    function onBack() as Void {
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_53_30_57_4_start:
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 55 8 ]
+        symbol [ classView %tmp.2 55 8 17 ];
+        %tmp.2 = getv ? :classView;
+        symbol [ newTrySettings %tmp.3 55 18 32 ];
+        %tmp.3 = getv %tmp.2 :newTrySettings;
+        symbol [ saveSettings %tmp.4 55 33 45 ];
+        %tmp.4 = getv function %tmp.3 :saveSettings;
+        invoke %tmp.3 %tmp.4();
+[ "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" 56 8 ]
+        symbol [ WatchUi %tmp.5 56 8 15 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.6 56 16 23 ];
+        %tmp.6 = getv function %tmp.5 :popView;
+        symbol [ WatchUi %tmp.7 56 24 31 ];
+        %tmp.7 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.8 56 32 47 ];
+        %tmp.8 = getv %tmp.7 :SLIDE_IMMEDIATE;
+        invoke %tmp.5 %tmp.6(%tmp.8);
+_Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_53_30_57_4_stop:
+    }
+}
+[ @file = "/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc"; @line = 1; ]
+<init> {
+}
