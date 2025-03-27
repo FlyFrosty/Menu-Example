@@ -3,7 +3,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
-
+//This is for on-watch menu
 class newTrySettings {
 
     function initialize() {
@@ -29,7 +29,7 @@ class newTrySettingsMenu extends WatchUi.Menu2 {
         Menu2.initialize(null);
         mySettings=new newTrySettings();
         Menu2.setTitle("Color");
- 		Menu2.addItem(new WatchUi.ToggleMenuItem("Blue or Red", null,"mySelection",mySettings.menuSelector, null));
+ 		Menu2.addItem(new WatchUi.ToggleMenuItem("Switch", "blue/red","mySelection",mySettings.menuSelector, null));
     }
 
 }
@@ -53,7 +53,7 @@ class newTrySettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
     function onBack() as Void {
 
         classView.newTrySettings.saveSettings();
-        WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+        WatchUi.popView(WatchUi.SLIDE_BLINK);
     }
 
 

@@ -107,12 +107,12 @@ _Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_27_26_33_4_
         %tmp.18 = getm $.Toybox.WatchUi;
         symbol [ ToggleMenuItem %tmp.19 32 29 43 ];
         %tmp.19 = getv function ? %tmp.18 :ToggleMenuItem;
-        %tmp.20 = "Blue or Red";
-        %tmp.21 = null;
+        %tmp.20 = "Switch";
+        %tmp.21 = "blue/red";
         %tmp.22 = "mySelection";
-        symbol [ mySettings %tmp.24 32 78 88 ];
+        symbol [ mySettings %tmp.24 32 79 89 ];
         %tmp.24 = getv ? :mySettings;
-        symbol [ menuSelector %tmp.25 32 89 101 ];
+        symbol [ menuSelector %tmp.25 32 90 102 ];
         %tmp.25 = getv %tmp.24 :menuSelector;
         %tmp.26 = null;
         %tmp.16 = newc %tmp.19 (%tmp.20, %tmp.21, %tmp.22, %tmp.25, %tmp.26);
@@ -209,8 +209,8 @@ _Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_53_30_57_4_
         %tmp.6 = getv function %tmp.5 :popView;
         symbol [ WatchUi %tmp.7 56 24 31 ];
         %tmp.7 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_IMMEDIATE %tmp.8 56 32 47 ];
-        %tmp.8 = getv %tmp.7 :SLIDE_IMMEDIATE;
+        symbol [ SLIDE_BLINK %tmp.8 56 32 43 ];
+        %tmp.8 = getv %tmp.7 :SLIDE_BLINK;
         invoke %tmp.5 %tmp.6(%tmp.8);
 _Users_jeffreyforste_Garmin_Projects_newTry_source_newTrySettings_mc_53_30_57_4_stop:
     }

@@ -2,11 +2,11 @@
 <debugInfo>
 <manifest filename="/Users/jeffreyforste/Garmin Projects/newTry/manifest.xml"/>
 <pcToLineNum>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="1" lineNum="35" parent="globals" pc="268435460" symbol="getApp"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="1" lineNum="36" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="1" lineNum="27" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="1" lineNum="28" parent="globals" pc="268435470" symbol="getApp"/>
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/bin/gen/006-B4260-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="3" lineNum="23" parent="globals/newTrySettingsMenu" pc="268435501" symbol="&lt;init&gt;"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="4" lineNum="67" parent="globals/newTryDelegate" pc="268435513" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="4" lineNum="52" parent="globals/newTryDelegate" pc="268435513" symbol="&lt;init&gt;"/>
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="5" lineNum="37" parent="globals/newTrySettingsMenuDelegate" pc="268435525" symbol="&lt;init&gt;"/>
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="6" lineNum="5" parent="globals/newTryApp" pc="268435537" symbol="&lt;init&gt;"/>
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="7" lineNum="8" parent="globals/newTryView" pc="268435549" symbol="&lt;init&gt;"/>
@@ -21,53 +21,43 @@
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="10" lineNum="30" parent="globals/newTrySettingsMenu" pc="268435651" symbol="initialize"/>
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="10" lineNum="31" parent="globals/newTrySettingsMenu" pc="268435680" symbol="initialize"/>
 <entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="10" lineNum="32" parent="globals/newTrySettingsMenu" pc="268435699" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="11" lineNum="69" parent="globals/newTryDelegate" pc="268435758" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="11" lineNum="70" parent="globals/newTryDelegate" pc="268435760" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="12" lineNum="53" parent="globals/newTrySettingsMenuDelegate" pc="268435773" symbol="onBack"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="12" lineNum="55" parent="globals/newTrySettingsMenuDelegate" pc="268435775" symbol="onBack"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="12" lineNum="56" parent="globals/newTrySettingsMenuDelegate" pc="268435792" symbol="onBack"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="13" lineNum="41" parent="globals/newTrySettingsMenuDelegate" pc="268435807" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="13" lineNum="42" parent="globals/newTrySettingsMenuDelegate" pc="268435809" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="13" lineNum="43" parent="globals/newTrySettingsMenuDelegate" pc="268435821" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="46" parent="globals/newTrySettingsMenuDelegate" pc="268435831" symbol="onSelect"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="47" parent="globals/newTrySettingsMenuDelegate" pc="268435834" symbol="onSelect"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="48" parent="globals/newTrySettingsMenuDelegate" pc="268435843" symbol="onSelect"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="49" parent="globals/newTrySettingsMenuDelegate" pc="268435860" symbol="onSelect"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="15" lineNum="12" parent="globals/newTryApp" pc="268435896" symbol="onStart"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="16" lineNum="27" parent="globals/newTryApp" pc="268435899" symbol="getSettingsView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="16" lineNum="28" parent="globals/newTryApp" pc="268435902" symbol="getSettingsView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="16" lineNum="30" parent="globals/newTryApp" pc="268435926" symbol="getSettingsView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="17" lineNum="20" parent="globals/newTryApp" pc="268435963" symbol="getInitialView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="17" lineNum="21" parent="globals/newTryApp" pc="268435966" symbol="getInitialView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="17" lineNum="23" parent="globals/newTryApp" pc="268435990" symbol="getInitialView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="18" lineNum="7" parent="globals/newTryApp" pc="268436025" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="18" lineNum="8" parent="globals/newTryApp" pc="268436027" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="19" lineNum="16" parent="globals/newTryApp" pc="268436040" symbol="onStop"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="60" parent="globals/newTryView" pc="268436043" symbol="getSettingsView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="61" parent="globals/newTryView" pc="268436046" symbol="getSettingsView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="62" parent="globals/newTryView" pc="268436070" symbol="getSettingsView"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="18" parent="globals/newTryView" pc="268436107" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="19" parent="globals/newTryView" pc="268436110" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="20" parent="globals/newTryView" pc="268436122" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="22" parent="globals/newTryView" pc="268436176" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="23" parent="globals/newTryView" pc="268436190" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="26" parent="globals/newTryView" pc="268436204" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="27" parent="globals/newTryView" pc="268436216" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="29" parent="globals/newTryView" pc="268436224" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="30" parent="globals/newTryView" pc="268436232" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="32" parent="globals/newTryView" pc="268436250" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="22" lineNum="34" parent="globals/newTryView" pc="268436267" symbol="onLayout"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="23" lineNum="13" parent="globals/newTryView" pc="268436300" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="23" lineNum="14" parent="globals/newTryView" pc="268436302" symbol="initialize"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="43" parent="globals/newTryView" pc="268436315" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="45" parent="globals/newTryView" pc="268436318" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="46" parent="globals/newTryView" pc="268436330" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="48" parent="globals/newTryView" pc="268436384" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="49" parent="globals/newTryView" pc="268436396" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="51" parent="globals/newTryView" pc="268436404" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="52" parent="globals/newTryView" pc="268436412" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="54" parent="globals/newTryView" pc="268436430" symbol="onUpdate"/>
-<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="24" lineNum="56" parent="globals/newTryView" pc="268436447" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="11" lineNum="54" parent="globals/newTryDelegate" pc="268435762" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="11" lineNum="55" parent="globals/newTryDelegate" pc="268435764" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="12" lineNum="53" parent="globals/newTrySettingsMenuDelegate" pc="268435777" symbol="onBack"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="12" lineNum="55" parent="globals/newTrySettingsMenuDelegate" pc="268435779" symbol="onBack"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="12" lineNum="56" parent="globals/newTrySettingsMenuDelegate" pc="268435796" symbol="onBack"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="13" lineNum="41" parent="globals/newTrySettingsMenuDelegate" pc="268435812" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="13" lineNum="42" parent="globals/newTrySettingsMenuDelegate" pc="268435814" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="13" lineNum="43" parent="globals/newTrySettingsMenuDelegate" pc="268435826" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="46" parent="globals/newTrySettingsMenuDelegate" pc="268435836" symbol="onSelect"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="47" parent="globals/newTrySettingsMenuDelegate" pc="268435839" symbol="onSelect"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="48" parent="globals/newTrySettingsMenuDelegate" pc="268435848" symbol="onSelect"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTrySettings.mc" id="14" lineNum="49" parent="globals/newTrySettingsMenuDelegate" pc="268435865" symbol="onSelect"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="15" lineNum="19" parent="globals/newTryApp" pc="268435901" symbol="getSettingsView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="15" lineNum="20" parent="globals/newTryApp" pc="268435904" symbol="getSettingsView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="15" lineNum="22" parent="globals/newTryApp" pc="268435928" symbol="getSettingsView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="16" lineNum="13" parent="globals/newTryApp" pc="268435965" symbol="getInitialView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="16" lineNum="14" parent="globals/newTryApp" pc="268435968" symbol="getInitialView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="16" lineNum="16" parent="globals/newTryApp" pc="268435992" symbol="getInitialView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="17" lineNum="7" parent="globals/newTryApp" pc="268436027" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryApp.mc" id="17" lineNum="8" parent="globals/newTryApp" pc="268436029" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="18" lineNum="45" parent="globals/newTryView" pc="268436042" symbol="getSettingsView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="18" lineNum="46" parent="globals/newTryView" pc="268436045" symbol="getSettingsView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="18" lineNum="47" parent="globals/newTryView" pc="268436069" symbol="getSettingsView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="19" lineNum="18" parent="globals/newTryView" pc="268436106" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="19" lineNum="20" parent="globals/newTryView" pc="268436108" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="19" lineNum="21" parent="globals/newTryView" pc="268436122" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="20" lineNum="13" parent="globals/newTryView" pc="268436137" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="20" lineNum="14" parent="globals/newTryView" pc="268436139" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="28" parent="globals/newTryView" pc="268436152" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="30" parent="globals/newTryView" pc="268436155" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="31" parent="globals/newTryView" pc="268436167" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="33" parent="globals/newTryView" pc="268436221" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="34" parent="globals/newTryView" pc="268436233" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="36" parent="globals/newTryView" pc="268436241" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="37" parent="globals/newTryView" pc="268436249" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="39" parent="globals/newTryView" pc="268436267" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/newTry/source/newTryView.mc" id="21" lineNum="41" parent="globals/newTryView" pc="268436284" symbol="onUpdate"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -98,32 +88,27 @@
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry field="true" id="17" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
-<entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="16" symbol="wWidth"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8391703" method="true" symbol="getSettingsView"/>
 <entry id="11" object="true" symbol="newTryView"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="8389281" method="true" symbol="onStop"/>
 <entry id="9" object="true" symbol="newTrySettingsMenu"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268435830" name="topView" stackId="1" startPc="268435807"/>
-<entry arg="true" endPc="268435895" name="item" stackId="1" startPc="268435831"/>
-<entry endPc="268435894" name="id" stackId="2" startPc="268435834"/>
-<entry endPc="268435962" name="menu" stackId="1" startPc="268435902"/>
-<entry endPc="268436024" name="view" stackId="1" startPc="268435966"/>
-<entry endPc="268436106" name="menu" stackId="1" startPc="268436046"/>
-<entry arg="true" endPc="268436299" name="dc" stackId="1" startPc="268436107"/>
-<entry endPc="268436298" name="clockTime" stackId="2" startPc="268436110"/>
-<entry endPc="268436298" name="timeString" stackId="3" startPc="268436110"/>
-<entry arg="true" endPc="268436479" name="dc" stackId="1" startPc="268436315"/>
-<entry endPc="268436478" name="clockTime" stackId="2" startPc="268436318"/>
-<entry endPc="268436478" name="timeString" stackId="3" startPc="268436318"/>
+<entry arg="true" endPc="268435835" name="topView" stackId="1" startPc="268435812"/>
+<entry arg="true" endPc="268435900" name="item" stackId="1" startPc="268435836"/>
+<entry endPc="268435899" name="id" stackId="2" startPc="268435839"/>
+<entry endPc="268435964" name="menu" stackId="1" startPc="268435904"/>
+<entry endPc="268436026" name="view" stackId="1" startPc="268435968"/>
+<entry endPc="268436105" name="menu" stackId="1" startPc="268436045"/>
+<entry arg="true" endPc="268436136" name="dc" stackId="1" startPc="268436106"/>
+<entry arg="true" endPc="268436316" name="dc" stackId="1" startPc="268436152"/>
+<entry endPc="268436315" name="clockTime" stackId="2" startPc="268436155"/>
+<entry endPc="268436315" name="timeString" stackId="3" startPc="268436155"/>
 </localVars>
 <deviceInfo deviceVersion="7b60046ebc6cbbbfd1a31636a2da0520945bb7b1" partNumber="006-B4260-00"/>
 <annotations>
@@ -138,9 +123,9 @@
 <dataEntry label="globals/newTryDelegate" offset="311" parentId="globals" symbolId="newTryDelegate" type="class"/>
 <dataEntry label="globals/newTrySettingsMenuDelegate" offset="355" parentId="globals" symbolId="newTrySettingsMenuDelegate" type="class"/>
 <dataEntry label="globals/newTryApp" offset="426" parentId="globals" symbolId="newTryApp" type="class"/>
-<dataEntry label="globals/newTryView" offset="506" parentId="globals" symbolId="newTryView" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="604" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="639" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/newTryView" offset="488" parentId="globals" symbolId="newTryView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="577" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="612" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
@@ -179,54 +164,43 @@
 <functionEntry accessMode="public" endPc="268435633" name="saveSettings" parent="newTrySettings" startPc="268435608">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435757" name="initialize" parent="newTrySettingsMenu" startPc="268435634">
+<functionEntry accessMode="public" endPc="268435761" name="initialize" parent="newTrySettingsMenu" startPc="268435634">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435772" name="initialize" parent="newTryDelegate" startPc="268435758">
+<functionEntry accessMode="public" endPc="268435776" name="initialize" parent="newTryDelegate" startPc="268435762">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435806" name="onBack" parent="newTrySettingsMenuDelegate" startPc="268435773">
+<functionEntry accessMode="public" endPc="268435811" name="onBack" parent="newTrySettingsMenuDelegate" startPc="268435777">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435830" name="initialize" parent="newTrySettingsMenuDelegate" startPc="268435807">
+<functionEntry accessMode="public" endPc="268435835" name="initialize" parent="newTrySettingsMenuDelegate" startPc="268435812">
 <param id="topView"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435895" name="onSelect" parent="newTrySettingsMenuDelegate" startPc="268435831">
+<functionEntry accessMode="public" endPc="268435900" name="onSelect" parent="newTrySettingsMenuDelegate" startPc="268435836">
 <param id="item"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435898" name="onStart" parent="newTryApp" startPc="268435896">
-<param id="state"/>
+<functionEntry accessMode="public" endPc="268435964" name="getSettingsView" parent="newTryApp" startPc="268435901">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435962" name="getSettingsView" parent="newTryApp" startPc="268435899">
+<functionEntry accessMode="public" endPc="268436026" name="getInitialView" parent="newTryApp" startPc="268435965">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436024" name="getInitialView" parent="newTryApp" startPc="268435963">
+<functionEntry accessMode="public" endPc="268436041" name="initialize" parent="newTryApp" startPc="268436027">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436039" name="initialize" parent="newTryApp" startPc="268436025">
+<functionEntry accessMode="public" endPc="268436105" name="getSettingsView" parent="newTryView" startPc="268436042">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436042" name="onStop" parent="newTryApp" startPc="268436040">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onShow" parent="newTryView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436106" name="getSettingsView" parent="newTryView" startPc="268436043">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436299" name="onLayout" parent="newTryView" startPc="268436107">
+<functionEntry accessMode="public" endPc="268436136" name="onLayout" parent="newTryView" startPc="268436106">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436314" name="initialize" parent="newTryView" startPc="268436300">
+<functionEntry accessMode="public" endPc="268436151" name="initialize" parent="newTryView" startPc="268436137">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436479" name="onUpdate" parent="newTryView" startPc="268436315">
+<functionEntry accessMode="public" endPc="268436316" name="onUpdate" parent="newTryView" startPc="268436152">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
